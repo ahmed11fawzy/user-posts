@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Playwrite+MX+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: var(--linkColor);
+}
+
+:root{
+    --bgColor: #111111;
+    --mainColor:#09c;
+    --linkColor:#eee;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    color: #eee;
+}
+a{
+    text-decoration: none;
+    color: var(--linkColor) !important;
+}
+
+.w-80{
+    width: 80% !important;
+}
+
+.container{
+
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    
+    margin-inline: auto !important;
+    
+}
+.m-auto{
+    margin-inline: auto !important;
+}
+.btn{
+    border:none;
+    padding: 15px;
+    background-color: var(--mainColor);
+    border-radius: 25px;
+    color: var(--linkColor);
+    cursor: pointer;
+    width: 120px;
+}
+
+.btn:hover{
+    color: #ffffff;
+}
+
+/* NOTO navbar */
+
+nav{
+    
+    background-color: #111111;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    
+}
+nav .container{
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    
+
+}
+
+.link{
+    margin-inline: 20px;
+}
+
+.log a{
+    font-family: "Caveat", cursive;
+}
+
+/* Noto home section */
+
+.home{
+    height: 90vh;
+    padding-top: 1px;
+    background-color: var(--bgColor);
+}
+
+.home .container{
+    margin-top: 50px;
+}
+
+aside{
+    width: 20%;
+    
+    
+    
+}
+
+aside ul{
+    height: 500px;
+    overflow-y: scroll;
+}
+
+aside h2{
+    
+    color: #09c;
+}
+main{
+    width: 75%;
+    
+    height: 100%;
+}
+
+
+
+.user{
+    margin-block: 15px;
+    padding: 15px;
+    
+}
+.user:hover {
+    background-color: #72707027 ;
+    color: #09c;
+    cursor: pointer;
+    box-shadow: #111111 0px 0px 5px;
+}
+/* BUG nav taps  */
+
+.nav-tabs{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+
+.nav-tabs li{
+    padding: 15px;
+
+}
+.nav-tabs li:hover{
+    cursor: pointer;
+}
+
+.active{
+    background-color: #72707027 ;
+    color: #09c;
+    cursor: pointer;
+    box-shadow: #111111 0px 0px 5px;
+}
+.post{
+    border-bottom: #09c 1px solid;
+}
+
+.active-post{
+    
+    color: #09c;
+    cursor: pointer;
+    
+    border: #09c 1px solid;
+    border-bottom: #09c 0px solid;
+}
+
+#postBody{
+    
+    width: 95%;
+    margin-left: auto;
+    margin-top: 50px;
+    padding-right: 30px;
+}
+
+#postBody h2{
+    color: #09c;
+    margin-block: 20px;
+}
