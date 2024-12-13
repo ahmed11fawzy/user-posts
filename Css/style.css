@@ -108,7 +108,7 @@ aside ul{
 }
 
 aside h2{
-    
+    text-align: center;
     color: #09c;
 }
 main{
@@ -155,6 +155,7 @@ main{
 }
 .post{
     border-bottom: #09c 1px solid;
+    cursor: pointer;
 }
 
 .active-post{
